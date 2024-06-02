@@ -1,0 +1,35 @@
+{
+  "name": "fon-backend",
+  "version": "1.0.0",
+  "description": "fon-backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.bundle.js",
+    "build": "webpack",
+    "dev": "nodemon ./server.js",
+    "seed": "seed -u --drop-database --db-name FreeOrNot ./data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Free-Or-Not/fon-backend.git"
+  },
+  "keywords": [],
+  "author": "fon project team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Free-Or-Not/fon-backend/issues"
+  },
+  "homepage": "https://github.com/Free-Or-Not/fon-backend#readme",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongo-seeding": "^3.7.2",
+    "mongo-seeding-cli": "^3.7.2",
+    "mongoose": "^6.6.5"
+  }
+}

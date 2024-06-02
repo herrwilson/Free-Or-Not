@@ -1,0 +1,9 @@
+.LoginForm {
+  text-align: center;
+  display: absolute;
+  margin-top: 100px;
+}
+
+.TextBox {
+  padding: 10px;
+}

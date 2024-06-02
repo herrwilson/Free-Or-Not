@@ -1,0 +1,35 @@
+#sidebar-wrapper {
+  max-width: 100px;
+  border-right: solid;
+  position: fixed;
+  left: 0;
+}
+
+#content-wrapper {
+  padding-left: 100px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.NavBar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-content: center;
+  min-height: 100vh;
+  width: 100%;
+  user-select: none;
+}
+
+.NavBar-button {
+  margin: 10px;
+}
+
+.NavBar-slogan {
+  display: flex;
+  writing-mode: sideways-lr;
+  align-items: center;
+  text-orientation: upright;
+  text-align: center;
+}

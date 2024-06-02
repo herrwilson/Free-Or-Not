@@ -1,0 +1,124 @@
+.Dashboard-Col {
+  display: flex;
+  flex-direction: column;
+}
+
+.Dashboard-Row {
+  padding: 10px;
+}
+
+.Dashboard-Row.login {
+  background-color: #f4d8ef;
+}
+
+.Dashboard-Row.contact {
+  background-color: #bba2b7;
+}
+
+@media screen and (max-width: 1000px) {
+  .Dashboard-Row {
+    padding: 5px;
+  }
+}
+
+/* DashButton */
+
+.DashButton {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  user-select: none;
+}
+
+.DashButton-text {
+  flex: 1 90%;
+  margin: 1rem;
+}
+
+.DashButton-icon {
+  flex: 1 10%;
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.DashButton:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .DashButton-icon {
+    max-width: 25px;
+    max-height: 25px;
+  }
+}
+
+/* DashCard */
+
+.DashCard {
+  display: flex;
+  flex-direction: column;
+  background-color: #dbaad3;
+  align-items: center;
+  user-select: none;
+}
+
+.DashCard-icon {
+  display: flex;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.DashCard-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 1rem;
+}
+
+.DashCard:hover {
+  cursor: pointer;
+  background-color: rgba(240, 240, 240);
+}
+
+@media screen and (max-width: 1000px) {
+  .DashCard-icon {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}
+
+/* DashRTV */
+
+.DashRTV {
+  width: 100%;
+  text-align: center;
+  user-select: none;
+  background-color: #ad489c;
+}
+
+.DashRTV-title {
+  margin: 1rem;
+}
+
+.RTV-item-wrapper {
+  display: flex;
+  width: 100%;
+  padding: 0.2rem;
+}
+
+.RTV-item-wrapper:hover {
+  cursor: pointer;
+  background-color: rgba(240, 240, 240);
+}
+
+.RTV-item {
+  flex: 1 40%;
+}
+
+.RTV-light {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1rem;
+}

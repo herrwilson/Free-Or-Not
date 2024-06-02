@@ -1,0 +1,39 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: #dbaad3;
+  align-items: center;
+  user-select: none;
+  border-radius: 5px;
+}
+
+.title {
+  margin: 0.5rem;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 1rem;
+}
+
+.icon {
+  display: flex;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+.main:hover {
+  cursor: pointer;
+  background-color: rgba(240, 240, 240);
+}
+
+@media screen and (max-width: 1000px) {
+  .icon {
+    max-width: 150px;
+    max-height: 150px;
+  }
+}

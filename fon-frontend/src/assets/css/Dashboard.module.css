@@ -1,0 +1,38 @@
+.main {
+  height: 100%;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+}
+
+.rowMain{
+  height: 100%;
+  padding: 10px;
+}
+
+.rowGrow{
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.row{
+  padding: 10px;
+}
+
+.login {
+  background-color: #f4d8ef;
+  border-radius: 5px;
+}
+
+.contact {
+  background-color: #bba2b7;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  .row{
+    padding: 5px;
+  }
+}
